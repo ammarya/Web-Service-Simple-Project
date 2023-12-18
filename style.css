@@ -1,0 +1,215 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  overflow: hidden;
+  height: 50px;
+}
+
+header .logo img {
+  height: 50px;
+  float: left;
+  margin-left: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  float: right;
+  overflow: hidden;
+  margin: auto;
+}
+
+
+header nav ul li {
+  float: left;
+  margin: 25px 8px 25px 10px;
+}
+
+header nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.description {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 30px 80px 30px 80px;
+  overflow: hidden;
+}
+
+.description h1 .highlighted {
+  text-decoration: none;
+  color: #03a9f4;
+
+}
+
+.description .description-details {
+  margin: 0;
+  padding: 0 0 30px 0;
+}
+
+.our-services {
+  overflow: hidden;
+}
+
+.our-services .quality,
+.price,
+.performance {
+  float: left;
+  width: calc(100% / 3);
+  text-align: center;
+  margin: 50px 0;
+}
+
+
+.our-services .quality p,
+.price p,
+.performance p {
+  color: #8a8c91;
+  padding: 10px;
+  margin: 0;
+}
+
+.our-services .quality h4,
+.price h4,
+.performance h4 {
+  margin: 0;
+}
+
+.about-us {
+  background-color: #f6f6f6;
+  overflow: hidden;
+}
+
+.about-us img {
+  width: 500px;
+  margin: 50px;
+  float: left;
+}
+
+.about-us .title-about-us {
+  margin: 0;
+  padding: 50px;
+
+}
+
+.statistics {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow: hidden;
+}
+
+.statistics div {
+  float: left;
+  width: calc(70% / 3);
+  color: #ffffff;
+  margin-left: 2%;
+  padding: 30px 0;
+  position: relative;
+  left: 11%;
+  right: 11%;
+}
+
+
+.statistics .service {
+  background-color: #b33939;
+}
+
+.statistics .design {
+  background-color: #227093;
+}
+
+.statistics .client {
+  background-color: #218c74;
+}
+
+.statistics .service span,
+.design span,
+.client span {
+  font-size: 50px;
+  display: block;
+}
+
+
+.our-skills {
+  background-color: #f6f6f6;
+  padding: 50px;
+}
+
+.our-skills h2 {
+  text-align: center;
+}
+
+.our-skills .progress {
+  margin: 5px auto;
+  padding: 5px;
+  width: 80%;
+  overflow: hidden;
+}
+
+
+.our-skills .progress .label {
+  width: 100px;
+  float: left;
+  position: relative;
+  top: 10px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+
+.our-skills .progress .shape {
+  float: left;
+  width: calc(100% - 100px);
+  background-color: white;
+  height: 40px;
+  position: relative;
+
+}
+
+.our-skills .progress .shape span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-color: #03a9f4;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+
+
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  overflow: hidden;
+}
+
+footer .desiger-name {
+  float: left;
+  padding-left: 50px;
+}
+
+footer .copyrights {
+  float: right;
+  padding-right: 50px;
+}
+
+footer .desiger-name a {
+  text-decoration: none;
+  color: #03a9f4;
+}
